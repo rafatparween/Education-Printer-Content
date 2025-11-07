@@ -7,6 +7,7 @@ import SliderPage from "./Components/SliderPage";
 import Digonode from "./Components/Digonode";
 import Footer from "./Components/Footer";
 import PrinterSetupGuide from "./Components/PrinterSetupGuide";
+import PrinterSetupSection from "./Components/PrinterSetupSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <Header/>
   </div>
   <SliderPage/>
+  <PrinterSetupSection/>
   <Digonode/>
   <PrinterSetupGuide/>
   <Footer/>

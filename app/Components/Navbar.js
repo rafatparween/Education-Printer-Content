@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,13 +12,19 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-100 fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-[87%] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[91%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-black">
-             Micro Hub Care
-            </Link>
-          </div>
+  <Link href="/">
+    <Image
+      src="/logohp.png"     // <-- put your logo image path here
+      alt="Micro Hub Care Logo"
+      width={120}         // adjust size
+      height={40}
+      className="object-contain"
+    />
+  </Link>
+</div>
 
           {/* Desktop Menu */}
           {/* <div className="hidden lg:flex lg:items-center lg:space-x-8">
