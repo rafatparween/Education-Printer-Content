@@ -8,6 +8,7 @@ import Digonode from "./Components/Digonode";
 import Footer from "./Components/Footer";
 import PrinterSetupGuide from "./Components/PrinterSetupGuide";
 import PrinterSetupSection from "./Components/PrinterSetupSection";
+import JivoChat from "./JivoChat";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
   <Digonode/>
   <PrinterSetupGuide/>
   <Footer/>
+  <JivoChat/>
       {/* <Contents/> */}
       
       {/* <Footer/> */}
