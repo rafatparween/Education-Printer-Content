@@ -14,9 +14,9 @@ const Footer = () => {
         <div className="mb-8 pb-4 border-b border-teal-700">
           <Link href="/" className="inline-block">
             <h2 className="text-[36px] font-bold text-white">
-              <span className="text-white">Micro</span> 
-              <span className="text-white"> Hub </span>
-              <span className="text-white">Care</span>
+              <span className="text-white">Hewlett</span> 
+              <span className="text-white"> Printer </span>
+              <span className="text-white">Solutions</span>
             </h2>
             <p className="text-[#1C8DCEED] text-sm mt-1">Premium Technical Solutions</p>
           </Link>
@@ -156,7 +156,7 @@ const Footer = () => {
         {/* Copyright section */}
         <div className="text-center pt-8 border-t border-[#1C8DCEED]">
           <p className="text-white">
-            &copy; {new Date().getFullYear()} Micro Hub Care. All rights reserved.
+            &copy; {new Date().getFullYear()} Hewlett Printer Solutions. All rights reserved.
           </p>
         </div>
       </div>
