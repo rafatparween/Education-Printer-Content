@@ -101,10 +101,10 @@ const Footer = () => {
               <p className="flex items-center">
                 <span className="mr-2">✉️</span>
                 <a
-                  href="mailto:support@microhubcare.com"
+                  href="mailto:support@hewlettprintersolution.com"
                   className="hover:text-teal-200 transition-colors duration-300"
                 >
-                  support@microhubcare.com
+                  support@hewlettprintersolution.com
                 </a>
               </p>
             </div>
@@ -156,7 +156,7 @@ const Footer = () => {
         {/* Copyright section */}
         <div className="text-center pt-8 border-t border-[#1C8DCEED]">
           <p className="text-white">
-            &copy; {new Date().getFullYear()} Hewlett Printer Solutions. All rights reserved.
+            &copy; {new Date().getFullYear()} Hewlett Printers Solution. All rights reserved.
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Disclaimer = () => {
             {/* New Disclaimer Text */}
             <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-900 p-6 mb-10 rounded-md">
                 <p className="mb-4">
-                    <strong>Micro Hub Care
+                    <strong>Hewlett Printers Solution
 
 </strong> is an independent informational website and is not affiliated with or endorsed by any printer manufacturers, including but not limited to HP (Hewlett-Packard), Epson, Canon, Brother, or Lexmark.
                 </p>
@@ -25,7 +25,8 @@ const Disclaimer = () => {
             {/* Existing Content */}
             <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                    The information provided by <strong>microhubcare
+                    The information provided by <strong>Hewlett Printers Solution
+
 </strong> ("we," "us," or "our") on this website is for general informational purposes only. All information on the site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
                 </p>
                 <p>

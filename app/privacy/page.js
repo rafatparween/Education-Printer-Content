@@ -11,7 +11,7 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">🔒 Privacy Policy</h2>
                     <p className="text-lg">
-                        At <strong>Micro Hub Care
+                        At <strong>Hewlett Printers Solution
 </strong>, we take your privacy seriously. Our website is designed to offer helpful content without collecting unnecessary personal data.
                     </p>
                     <p className="text-lg font-medium">What We Collect:</p>
@@ -42,7 +42,8 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">Who We Are</h2>
                     <p className="text-lg">
-                        We at <strong>microhubcare
+                        We at <strong>Hewlett Printers Solution
+
 </strong>, located at the World Wide Web as{" "}
                         <a href="http://hewlettprintersolution.com" className="text-blue-500 hover:underline">
                             www.hewlettprintersolution.com
@@ -78,7 +79,8 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">How We Protect Your Personal Information</h2>
                     <p className="text-lg">
-                        At <strong>microhubcare
+                        At <strong>Hewlett Printers Solution
+
 </strong>, we prioritize your privacy and security. Sensitive information entered on our website, such as credit card details, is encrypted using Secure Socket Layer (SSL) technology.
                         We adhere to industry standards to safeguard your personal information during transmission and storage.
                     </p>
@@ -100,20 +102,24 @@ export const PrivacyPolicy = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-900">Notification of Changes</h2>
                     <p className="text-lg">
-                        If <strong>microhubcare
+                        If <strong>Hewlett Printers Solution
+
 </strong> decides to make changes to this Privacy Policy, we will post the updates on this page and other relevant areas of our website.
                         This ensures that our users are always aware of what information we collect, how we use it, and under what circumstances it may be disclosed.
                     </p>
                 </section>
 
                 <footer className="text-center text-gray-600">
-                    <p className="text-sm">© 2025 microhubcare
+                    <p className="text-sm">© 2025 Hewlett Printers Solution
+
 . All Rights Reserved.</p>
                     <p className="text-sm">
                         For any questions or concerns regarding our privacy policy, please contact us at{" "}
-                        <a href="mailto:support@microhubcare
+                        <a href="mailto:support@Hewlett Printers Solution
+
 .com" className="text-blue-500 hover:underline">
-                            support@microhubcare
+                            support@hewlettprintersolution.com
+
 .com
                         </a>.
                     </p>
