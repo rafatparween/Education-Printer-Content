@@ -28,7 +28,6 @@
 //   );
 // }
 
-
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -61,19 +60,22 @@ export default function RootLayout({ children }) {
         <Script id="google-ads-tag" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){ 
+              console.log("🔥 gtag called:", arguments);
+              dataLayer.push(arguments); 
+            }
+
+            console.log("✅ Google Ads gtag loaded");
+
             gtag('js', new Date());
             gtag('config', 'AW-17876155818');
           `}
         </Script>
       </head>
 
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
   );
 }
-
