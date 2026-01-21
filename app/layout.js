@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
       <head>
         {/* Google Ads Global Site Tag */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17876155818"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17886206014"
           strategy="afterInteractive"
         />
 
@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
             console.log("✅ Google Ads gtag loaded");
 
             gtag('js', new Date());
-            gtag('config', 'AW-17876155818');
+            gtag('config', 'AW-17886206014');
           `}
         </Script>
       </head>
